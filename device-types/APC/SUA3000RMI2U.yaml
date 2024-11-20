@@ -1,0 +1,47 @@
+---
+manufacturer: APC
+model: SUA3000RMI2U
+slug: apc-sua3000rmi2u
+part_number: SUA3000RMI2U
+u_height: 2
+is_full_depth: true
+airflow: front-to-rear
+comments: "APC Smart-UPS, Line Interactive, 3kVA, Rackmount 2U, 230V, 8x IEC C13+1x IEC C19 outlets, SmartSlot, AVR, LED\n Battery SKU: RBC43"
+console-ports:
+  - name: Serial
+    type: de-9
+  - name: USB
+    type: usb-b
+power-ports:
+  - name: Source
+    type: iec-60320-c20
+power-outlets:
+  - name: Outlet 1
+    type: iec-60320-c19
+    power_port: Source
+  - name: Outlet 2
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 3
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 4
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 5
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 6
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 7
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 8
+    type: iec-60320-c13
+    power_port: Source
+  - name: Outlet 9
+    type: iec-60320-c13
+    power_port: Source
+module-bays:
+  - name: SmartSlot
